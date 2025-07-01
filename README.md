@@ -1,12 +1,62 @@
-# React + Vite
+# React + Vite + TailwindCSS + Vitest Boilerplate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a lightweight and modern boilerplate project using:
 
-Currently, two official plugins are available:
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vitest](https://vitest.dev/) for testing
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+- [JSDOM](https://github.com/jsdom/jsdom) for browser-like test environment
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📦 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the repo and install dependencies
+
+```bash
+npm install
+```
+
+## 🚀 Available Commands
+
+### Development
+```bash
+npm run dev
+```
+Starts the Vite development server.
+
+### Build
+```bash
+npm run build
+```
+Builds the app for production.
+
+### Preview Production Build
+```bash
+npm run preview
+```
+Serves the production build locally for testing.
+
+---
+
+## 🧪 Testing
+
+### Run all tests once
+```bash
+npm run test
+```
+Starts the Vite development server.
+
+### Watch mode (re-run tests on file changes)
+```bash
+npm run test:watch
+```
+Builds the app for production.
+
+### Run with interactive UI
+```bash
+npm run test:ui
+```
+Serves the production build locally for testing.
