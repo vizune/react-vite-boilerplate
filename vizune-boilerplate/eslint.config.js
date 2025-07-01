@@ -35,6 +35,11 @@ export default defineConfig([
         test: true,
         expect: true,
         jest: true,
+        beforeEach: true,
+        afterEach: true,
+        describe: true,
+        it: true,
+        global: true,
       },
       parserOptions: {
         ecmaVersion: 'latest',
